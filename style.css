@@ -27,7 +27,7 @@ body {
 }
 
 .logo {
-  height:  34px;
+  height:  68px;
   width:  auto;
   margin:  34px auto 26px auto;
   display:  block;
@@ -48,6 +48,7 @@ body {
 
   .logo {
     margin: auto auto 64px auto;
+    height:  34px;
   }
 }
 
