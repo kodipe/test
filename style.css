@@ -10,6 +10,7 @@ body {
 }
 
 .wrap {
+  width:  720px;
   max-width: 100%;
   padding:  16px 16px 96px 16px;
   margin:  0 auto 0 auto;
@@ -18,7 +19,7 @@ body {
   flex-direction:  column;
 }
 
-@media screen and (min-width: 772px) {
+@media screen and (min-width: 1024px) {
   .wrap {
     width:  772px;
     padding: 64px 16px;
@@ -40,7 +41,7 @@ body {
   width:  100%
 }
 
-@media screen and (min-width: 772px) {
+@media screen and (min-width: 1024px) {
   .grid {
     grid-template-columns: 1fr 1fr;
   }
